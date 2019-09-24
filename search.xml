@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[FFmpeg 基础教程]]></title>
     <url>%2F2019%2F09%2F24%2FFFmpeg%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[FFmpeg 基础教程FFmpeg 基本信息查询命令显示版本1$ FFmpeg -version显示可用的 demuxers1$ FFmpeg -demuxers显示可用的 muxers1$ FFmpeg -muxers显示可用的设备1$ FFmpeg -devices显示所有编解码器1$ FFmpeg -codecs显示可用的解码器1$ FFmpeg -decoders显示所有的编码器1$ FFmpeg -encoders显示比特流 filter1$ FFmpeg -bsfs显示可用的格式1$ FFmpeg -formats显示可用的协议1$ FFmpeg -protocols显示可用的过滤器1$ FFmpeg -filters显示可用的像素格式1$ FFmpeg -pix_fmts显示可用的采样格式1$ FFmpeg -sample_fmts显示 channel 名称1$ FFmpeg -layouts显示识别的颜色名称1$ FFmpeg -colors相关链接：FFmpeg音视频核心技术精讲与实战转载请注明出处文章有问题请指出]]></content>
+    <content type="text"><![CDATA[FFmpeg 基础教程FFmpeg 基本信息查询命令显示版本1FFmpeg -version显示可用的 demuxers1FFmpeg -demuxers显示可用的 muxers1FFmpeg -muxers显示可用的设备1FFmpeg -devices显示所有编解码器1FFmpeg -codecs显示可用的解码器1FFmpeg -decoders显示所有的编码器1FFmpeg -encoders显示比特流 filter1FFmpeg -bsfs显示可用的格式1FFmpeg -formats显示可用的协议1FFmpeg -protocols显示可用的过滤器1FFmpeg -filters显示可用的像素格式1FFmpeg -pix_fmts显示可用的采样格式1FFmpeg -sample_fmts显示 channel 名称1FFmpeg -layouts显示识别的颜色名称1FFmpeg -colors相关链接：FFmpeg音视频核心技术精讲与实战转载请注明出处文章有问题请指出]]></content>
       <categories>
         <category>FFmpeg</category>
       </categories>
