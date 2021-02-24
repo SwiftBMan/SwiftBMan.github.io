@@ -303,7 +303,7 @@
 <li>库是程序代码的集合，是共享程序代码的一种方式。</li>
 <li>根据源代码的公开情况，库可分为2种类型。</li>
 </ul>
-<a id="more"></a>
+<span id="more"></span>
 
 <h4 id="开源库"><a href="#开源库" class="headerlink" title="开源库"></a>开源库</h4><ul>
 <li><p>公开源代码，能看到具体实现。</p>
@@ -362,6 +362,7 @@
 </li>
 </ul>
 <h3 id="静态库的合并"><a href="#静态库的合并" class="headerlink" title="静态库的合并"></a>静态库的合并</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 检测.a的架构类型</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> lipo -info libCZTools.a</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 合并.a</span></span><br><span class="line">lipo -create Debug-iphoneos/libTools.a Debug-iphonesimulator/libTools.a -output libTools.a</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> 合并.a的好处，开发过程中既可以在真机上调试，也可以在模拟器上调试</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 合并.a的坏处，如果静态库太大，合并打包后，会非常大，因此很多第三方的静态库的.a是区分版本的</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 今后在使用.a时一定注意版本</span></span><br></pre></td></tr></table></figure>
+
     </div>
 
     
