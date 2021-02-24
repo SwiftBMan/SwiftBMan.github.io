@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>FFmpeg</title>
+    <url>/2021/02/23/FFmpeg/FFmpeg/</url>
+    <content><![CDATA[<h2 id="基本信息查询命令"><a href="#基本信息查询命令" class="headerlink" title="基本信息查询命令"></a>基本信息查询命令</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 显示版本</span></span><br><span class="line">ffmpeg -version</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的格式（包括设备）</span></span><br><span class="line">ffmpeg -formats</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的 demuxers</span></span><br><span class="line">ffmpeg -demuxers</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的 muxers</span></span><br><span class="line">ffmpeg -muxers</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的设备</span></span><br><span class="line">ffmpeg -devices</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示 libavcodec 已知的所有编解码器</span></span><br><span class="line">ffmpeg -codecs</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的解码器</span></span><br><span class="line">ffmpeg -decoders</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示所有可用的编码器</span></span><br><span class="line">ffmpeg -encoders</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的比特流 filter</span></span><br><span class="line">ffmpeg -bsfs</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的协议</span></span><br><span class="line">ffmpeg -protocols </span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的 libavfilter 过滤器</span></span><br><span class="line">ffmpeg -filters</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的像素格式</span></span><br><span class="line">ffmpeg -pix_fmts</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的采样格式</span></span><br><span class="line">ffmpeg -sample_fmts</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示 channel 名称和标准 channel 布局</span></span><br><span class="line">ffmpeg -layouts</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示识别的颜色名称</span></span><br><span class="line">ffmpeg -colors</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<h2 id="ffplay"><a href="#ffplay" class="headerlink" title="ffplay"></a>ffplay</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 播放外挂字幕和视频</span></span><br><span class="line">ffplay -vf subtitles=subtitle.ass input.mkv</span><br><span class="line">ffplay -vf <span class="string">&quot;subtitles=subtitle.srt&quot;</span> input.mkv</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>FFmpeg</category>
+      </categories>
+      <tags>
+        <tag>FFmpeg</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>静态库和动态库</title>
     <url>/2021/02/23/iOS/%E9%9D%99%E6%80%81%E5%BA%93%E5%92%8C%E5%8A%A8%E6%80%81%E5%BA%93/</url>
     <content><![CDATA[<h3 id="什么是库？"><a href="#什么是库？" class="headerlink" title="什么是库？"></a>什么是库？</h3><ul>
@@ -72,33 +99,6 @@
       </categories>
       <tags>
         <tag>iOS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>FFmpeg</title>
-    <url>/2021/02/23/FFmpeg/FFmpeg/</url>
-    <content><![CDATA[<h2 id="基本信息查询命令"><a href="#基本信息查询命令" class="headerlink" title="基本信息查询命令"></a>基本信息查询命令</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 显示版本</span></span><br><span class="line">ffmpeg -version</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的格式（包括设备）</span></span><br><span class="line">ffmpeg -formats</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的 demuxers</span></span><br><span class="line">ffmpeg -demuxers</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的 muxers</span></span><br><span class="line">ffmpeg -muxers</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的设备</span></span><br><span class="line">ffmpeg -devices</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示 libavcodec 已知的所有编解码器</span></span><br><span class="line">ffmpeg -codecs</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的解码器</span></span><br><span class="line">ffmpeg -decoders</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示所有可用的编码器</span></span><br><span class="line">ffmpeg -encoders</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的比特流 filter</span></span><br><span class="line">ffmpeg -bsfs</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的协议</span></span><br><span class="line">ffmpeg -protocols </span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的 libavfilter 过滤器</span></span><br><span class="line">ffmpeg -filters</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的像素格式</span></span><br><span class="line">ffmpeg -pix_fmts</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示可用的采样格式</span></span><br><span class="line">ffmpeg -sample_fmts</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示 channel 名称和标准 channel 布局</span></span><br><span class="line">ffmpeg -layouts</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示识别的颜色名称</span></span><br><span class="line">ffmpeg -colors</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<h2 id="ffplay"><a href="#ffplay" class="headerlink" title="ffplay"></a>ffplay</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 播放外挂字幕和视频</span></span><br><span class="line">ffplay -vf subtitles=subtitle.ass input.mkv</span><br><span class="line">ffplay -vf <span class="string">&quot;subtitles=subtitle.srt&quot;</span> input.mkv</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>FFmpeg</category>
-      </categories>
-      <tags>
-        <tag>FFmpeg</tag>
       </tags>
   </entry>
   <entry>
