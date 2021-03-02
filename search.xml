@@ -4717,6 +4717,8 @@ E --&gt;|Sleep| B
     <content><![CDATA[<h3 id="pthread-create-创建一个新线程"><a href="#pthread-create-创建一个新线程" class="headerlink" title="pthread_create 创建一个新线程"></a>pthread_create 创建一个新线程</h3><h4 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h4><figure class="highlight objc"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;pthread.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> pthread_create(pthread_t *thread, </span><br><span class="line">                   <span class="keyword">const</span> pthread_attr_t *attr, </span><br><span class="line">                   <span class="keyword">void</span> *(*start_routine)(<span class="keyword">void</span> *), </span><br><span class="line">                   <span class="keyword">void</span> *arg);</span><br></pre></td></tr></table></figure>
 
 <h4 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h4><p><strong>pthread_create()</strong> 函数用于在进程内创建一个具有 <strong>attr</strong> 指定的属性的新线程。如果 <strong>attr</strong> 为 <strong>NULL</strong>，则使用默认属性。如果稍后修改 <strong>attr</strong> 指定的属性，则该线程的属性不会受到影响。成功完成后，<strong>pthread_create()</strong> 将创建的线程的 <strong>ID</strong> 存储在线程指定的位置。</p>
+<span id="more"></span>
+
 <p>通过使用 <strong>arg</strong> 作为唯一参数执行 <strong>start_routine</strong> 来创建线程。如果 <strong>start_routine</strong> 返回，则效果就像使用 <strong>start_routine</strong> 的返回值作为退出状态对 <strong>pthread_exit()</strong> 进行了隐式调用。请注意，最初在其中调用 <strong>main()</strong> 的线程与此不同。当它从 <strong>main()</strong> 返回时，效果就像使用 <strong>main()</strong> 的返回值作为退出状态隐式调用 <strong>exit()</strong> 一样。</p>
 <p>线程退出后，该线程的存储必须由另一个线程通过调用 <strong>pthread_join()</strong> 回收。或者，可以在线程上调用 <strong>pthread_detach()</strong>  来指示系统可以在退出时自动回收线程存储。为了获得与在新创建的线程上调用 <strong>pthread_detach()</strong> 相同的效果，可以在传递给 <strong>pthread_create()</strong> 的 <strong>attr</strong> 参数上使用 <strong>pthread_attr_setdetachstate()</strong> 函数。</p>
 <p>新线程的信号状态初始化为：</p>
@@ -4724,10 +4726,13 @@ E --&gt;|Sleep| B
 <li>信号掩码从创建线程继承。</li>
 <li>等待新线程的信号集为空。</li>
 </ul>
-<span id="more"></span>
-
-
-
+<h4 id="返回值"><a href="#返回值" class="headerlink" title="返回值"></a>返回值</h4><p>如果成功，则 <strong>pthread_create()</strong> 函数将返回零。 否则，将返回错误编号以指示错误。</p>
+<h4 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h4><p>如果出现以下情况，<strong>pthread_create()</strong> 函数将失败：</p>
+<ul>
+<li>系统缺少创建另一个线程的必要资源，否则将超出系统对进程 <strong>[PTHREAD_THREADS_MAX]</strong> 中线程总数的限制。</li>
+<li>调用方没有适当的权限来设置所需的调度参数或调度策略。</li>
+<li><strong>attr</strong> 指定的值无效。</li>
+</ul>
 ]]></content>
       <categories>
         <category>多线程</category>
