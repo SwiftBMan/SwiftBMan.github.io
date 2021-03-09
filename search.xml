@@ -4777,4 +4777,133 @@ E --&gt;|Sleep| B
         <tag>诗词</tag>
       </tags>
   </entry>
+  <entry>
+    <title>数学符号</title>
+    <url>/2021/03/09/%E6%95%B0%E5%AD%A6/%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th>符号</th>
+<th>例子</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>$\in$</td>
+<td>$x\in A$</td>
+<td>$x$ 属于 $A$ ； $x$ 是集合 $A$ 的一个元素</td>
+</tr>
+<tr>
+<td>$\notin$</td>
+<td>$y\notin A$</td>
+<td>$y$ 不属于 $A$；$y$ 不是集合 $A$ 的一个元素</td>
+</tr>
+<tr>
+<td>${,\dots,\rbrace$</td>
+<td>$\lbrace a,\ b,\ c,\ \dots,\ n\rbrace$</td>
+<td>诸元素 $a,\ b,\ c,\ \dots,\ n$ 构成的集合</td>
+</tr>
+<tr>
+<td>$\lbrace</td>
+<td>\rbrace$</td>
+<td>$\lbrace x\</td>
+</tr>
+<tr>
+<td>$\varnothing$</td>
+<td></td>
+<td>空集</td>
+</tr>
+<tr>
+<td>$\mathrm N$</td>
+<td></td>
+<td>非负整数集；自然数集</td>
+</tr>
+<tr>
+<td>$\mathrm N^*$ 或 $\mathrm N_+$</td>
+<td></td>
+<td>正整数集</td>
+</tr>
+<tr>
+<td>$\mathrm Z$</td>
+<td></td>
+<td>整数集</td>
+</tr>
+<tr>
+<td>$\mathrm Q$</td>
+<td></td>
+<td>有理数集</td>
+</tr>
+<tr>
+<td>$\mathrm R$</td>
+<td></td>
+<td>实数集</td>
+</tr>
+<tr>
+<td>$\subseteq$</td>
+<td>$B\subseteq A$</td>
+<td>$B$ 包含于 $A$ ；$B$ 是 $A$ 的子集</td>
+</tr>
+<tr>
+<td>$\subsetneqq$</td>
+<td>$B \subsetneqq A$</td>
+<td>$B$ 真包含于 $A$；$B$ 是 $A$ 的真子集</td>
+</tr>
+<tr>
+<td>$\not\subseteq$</td>
+<td>$B \not\subseteq A$</td>
+<td>$B$ 不包含于 $A$；$B$ 不是 $A$ 的子集</td>
+</tr>
+<tr>
+<td>$\cup$</td>
+<td>$A \cup B $</td>
+<td>$A$ 与 $B$ 的并集</td>
+</tr>
+<tr>
+<td>$\cap$</td>
+<td>$A\cap B$</td>
+<td>$A$ 与 $B$ 的交集</td>
+</tr>
+<tr>
+<td>$\complement$</td>
+<td>$\complement_AB$</td>
+<td>$A$ 中子集 $B$ 的补集或余集</td>
+</tr>
+<tr>
+<td>$[,]$</td>
+<td>$[a,\ b]$</td>
+<td>$\mathrm R$ 中由 $a$ 到 $b$ 的闭区间</td>
+</tr>
+<tr>
+<td>$(,)$</td>
+<td>$(a,\ b)$</td>
+<td>$\mathrm R$ 中由 $a$ 到 $b$ 的开区间</td>
+</tr>
+<tr>
+<td>$[,)$</td>
+<td>$[a,\ b)$</td>
+<td>$\mathrm R$ 中由 $a$ （含于内）到 $b$ 的右半开区间</td>
+</tr>
+<tr>
+<td>$(,]$</td>
+<td>$(a,\ b]$</td>
+<td>$\mathrm R$ 中由 $a$ 到 $b$ （含于内）的左半开区间</td>
+</tr>
+<tr>
+<td>$f:A\to B$</td>
+<td></td>
+<td>集合 $A$ 到集合 $B$ 的映射</td>
+</tr>
+</tbody></table>
+<span id="more"></span>
+
+]]></content>
+      <categories>
+        <category>数学符号</category>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>数学符号</tag>
+        <tag>数学</tag>
+      </tags>
+  </entry>
 </search>
