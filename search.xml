@@ -4965,6 +4965,76 @@ E --&gt;|Sleep| B
 <span id="more"></span>
 
 <div class="note info"><h4 id="小知识"><a href="#小知识" class="headerlink" title="小知识"></a>小知识</h4><p>商朝人崇信鬼神，每每遇事都要占卜，占卜的方法是用火在<strong>牛胛骨</strong>或<strong>鬼腹甲</strong>上烧炙。甲骨的背面便出现裂纹，叫“兆”。然后根据兆纹的形状来断定吉凶。占卜的内容、结果以及日后是否应验，都刻在兆纹旁边，叫做“卜辞”。商朝中央负责祭祀占卜的官员称“卜”。</p>
+</div>
+
+<ul>
+<li>等级森严的分封制<ul>
+<li>周初分封的诸侯，大多数是<strong>同姓</strong>子弟，他们多被分封到重要地区</li>
+<li>天子——诸侯——卿大夫——士</li>
+<li>分封制加强了周天子对地方的统治，周天子具有<strong>至尊权威</strong>，国家政权也逐渐由松散趋向严密</li>
+<li>随着诸侯国势力的日益壮大，到西周后期，王权衰弱，分封制遭到破坏</li>
+</ul>
+</li>
+<li>血缘关系维系的宗法制<ul>
+<li>为了加强分封制的统治秩序，解决贵族之间在权利、财产和土地继承上的矛盾，西周实行了与分封制互为表里的具有政治性质的宗法制</li>
+<li>宗法制是用<strong>父系</strong>血缘关系的亲疏来维系政治等级、巩固国家统治的制度。</li>
+<li>天子<ul>
+<li>（大宗）嫡长子继任为<strong>天子</strong></li>
+<li>（小宗）余子分封为<strong>诸侯</strong><ul>
+<li>（大宗）嫡长子继任为<strong>诸侯</strong></li>
+<li>（小宗）余子分封为<strong>卿大夫</strong><ul>
+<li>（大宗）嫡长子继任为<strong>卿大夫</strong></li>
+<li>（小宗）余子分封为<strong>士</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="note info"><h4 id="小知识"><a href="#小知识" class="headerlink" title="小知识"></a>小知识</h4><p>为了更好地维护分封制和宗法制，西周还制定了各种礼乐制度。礼乐制度就是对统治阶级日常的政治、社会活动、例如祭神、结婚、丧葬等，制定一些规则和仪式，并配有特定的音乐。不同等级的贵族要行不同的礼仪。</p>
+</div>
+
+<div class="note info"><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><ul>
+<li>西周分封制的实行，有利于西周政治的稳定，在历史上具有一定的积极意义</li>
+<li>王位世袭制、等级森严的分封制以及血缘关系所维系的宗法制，构成我国古代早期政治制度的主要内容和特征</li>
+</ul>
+</div>
+
+<h3 id="秦朝中央集权制度的形成"><a href="#秦朝中央集权制度的形成" class="headerlink" title="秦朝中央集权制度的形成"></a>秦朝中央集权制度的形成</h3><ul>
+<li>从诸侯争霸到秦朝统一<ul>
+<li>西周末年，王室衰微，各路诸侯纷纷称王，为了控制更多土地，相互战争</li>
+<li>秦国经过商鞅变法，政治、经济、军事实力日益强大，先后灭掉韩、赵、魏、楚、燕、齐六国</li>
+<li>秦王嬴政建立中国历史上第一个统一的中央集权的封建王朝——秦朝，定都咸阳</li>
+</ul>
+</li>
+<li>至高无上的皇权和中央官制<ul>
+<li>德高三皇、功过五帝，称为皇帝</li>
+</ul>
+</li>
+<li>秦朝统一国家的措施<ul>
+<li>颁布通行全国的秦律</li>
+<li>统一度量衡、货币和车轨</li>
+<li>统一文字</li>
+<li>修建由都城咸阳通达各地的驰道</li>
+<li>开通联系长江和珠江两大水系的灵渠</li>
+<li>修筑抵御匈奴的长城</li>
+<li>进行大规模移民</li>
+<li>等等</li>
+</ul>
+</li>
+<li>郡县制的全面推行<ul>
+<li>秦始皇采用李斯的建议，把全国分为36郡，由中央政府直接管辖。一郡之内又分为若干县</li>
+<li>设立郡守和县令</li>
+</ul>
+</li>
+</ul>
+<div class="note info"><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><ul>
+<li>秦始皇首创的皇帝制度，体现了皇位世袭和皇权至上</li>
+<li>秦朝中央官制和郡县制的实行，形成了从中央到地方的垂直管理体系，便于皇帝对中央和地方、中央对地方进行的统治</li>
+</ul>
 </div>]]></content>
   </entry>
   <entry>
@@ -4982,5 +5052,60 @@ E --&gt;|Sleep| B
 </div>
 <div class="note warning"><p>转载请注明出处<br>文章有问题请指出</p>
 </div>]]></content>
+  </entry>
+  <entry>
+    <title>iOS内存管理</title>
+    <url>/2021/03/21/iOS/iOS%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<h3 id="什么是自动引用计数"><a href="#什么是自动引用计数" class="headerlink" title="什么是自动引用计数"></a>什么是自动引用计数</h3><ul>
+<li>自动引用计数（ARC，Automatic Reference Counting）是指内存管理中对引用采取自动计数的技术</li>
+<li>自动引用计数降低了程序崩溃、内存泄漏等风险，减少了开发的工作量</li>
+<li>在 <strong>LLVM</strong> 编译器中设置 <strong>ARC</strong> 为有效状态，就无需再次键入 <strong>retain</strong> 或者是 <strong>release</strong> 代码</li>
+</ul>
+<span id="more"></span>
+
+<h3 id="内存管理的思考方式"><a href="#内存管理的思考方式" class="headerlink" title="内存管理的思考方式"></a>内存管理的思考方式</h3><ul>
+<li>自己生成的对象，自己所持有</li>
+<li>非自己生成的对象，自己也能持有</li>
+<li>不再需要自己持有的对象时释放</li>
+<li>非自己持有的对象无法释放</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>对象操作</th>
+<th>Objective-C 方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>生成并持有对象</td>
+<td>alloc/new/copy/mutableCopy 等方法</td>
+</tr>
+<tr>
+<td>持有对象</td>
+<td>retain 方法</td>
+</tr>
+<tr>
+<td>释放对象</td>
+<td>release 方法</td>
+</tr>
+<tr>
+<td>废弃对象</td>
+<td>dealloc 方法</td>
+</tr>
+</tbody></table>
+<h3 id="autorelease"><a href="#autorelease" class="headerlink" title="autorelease"></a>autorelease</h3><ul>
+<li>生成并持有 NSAutoreleasePool 对象</li>
+<li>调用已分配对象的 autorelease 实例方法</li>
+<li>废弃 NSAutoreleasePool 对象</li>
+</ul>
+]]></content>
+      <categories>
+        <category>iOS</category>
+        <category>内存管理</category>
+      </categories>
+      <tags>
+        <tag>iOS</tag>
+        <tag>内存管理</tag>
+      </tags>
   </entry>
 </search>

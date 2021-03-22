@@ -238,9 +238,9 @@ mjx-container[display="true"] + br {
 <nav class="site-nav">
   <ul class="main-menu menu">
         <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">12</span></a></li>
-        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">14</span></a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">13</span></a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">13</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">15</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">14</span></a></li>
         <li class="menu-item menu-item-documentation"><a href="/documentation/" rel="section"><i class="fa fa-book fa-fw"></i>文档</a></li>
         <li class="menu-item menu-item-video-tutorial"><a href="/video-tutorial/" rel="section"><i class="fa fa-play-circle fa-fw"></i>视频教程</a></li>
         <li class="menu-item menu-item-recommended-site"><a href="/recommended-site/" rel="section"><i class="fa fa-star fa-fw"></i>推荐站点</a></li>
@@ -316,20 +316,20 @@ mjx-container[display="true"] + br {
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">13</span>
+          <span class="site-state-item-count">14</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-count">15</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-count">13</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -391,6 +391,95 @@ mjx-container[display="true"] + br {
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://swiftbman.github.io/2021/03/21/iOS/iOS%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/tiga_avatar.jpeg">
+      <meta itemprop="name" content="Zheng Qihui">
+      <meta itemprop="description" content="Sharing various IT technologies">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of JokerZheng">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/03/21/iOS/iOS%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/" class="post-title-link" itemprop="url">iOS内存管理</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-03-21 14:27:39 / 修改时间：16:22:46" itemprop="dateCreated datePublished" datetime="2021-03-21T14:27:39+08:00">2021-03-21</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/iOS/" itemprop="url" rel="index"><span itemprop="name">iOS</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/iOS/%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/" itemprop="url" rel="index"><span itemprop="name">内存管理</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="什么是自动引用计数"><a href="#什么是自动引用计数" class="headerlink" title="什么是自动引用计数"></a>什么是自动引用计数</h3><ul>
+<li>自动引用计数（ARC，Automatic Reference Counting）是指内存管理中对引用采取自动计数的技术</li>
+<li>自动引用计数降低了程序崩溃、内存泄漏等风险，减少了开发的工作量</li>
+<li>在 <strong>LLVM</strong> 编译器中设置 <strong>ARC</strong> 为有效状态，就无需再次键入 <strong>retain</strong> 或者是 <strong>release</strong> 代码</li>
+</ul>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/03/21/iOS/iOS%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="https://swiftbman.github.io/2021/03/09/%E5%8E%86%E5%8F%B2/%E5%8F%A4%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%9A%84%E6%94%BF%E6%B2%BB%E5%88%B6%E5%BA%A6/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -422,7 +511,7 @@ mjx-container[display="true"] + br {
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-03-10 16:42:50" itemprop="dateModified" datetime="2021-03-10T16:42:50+08:00">2021-03-10</time>
+        <time title="修改时间：2021-03-22 16:28:52" itemprop="dateModified" datetime="2021-03-22T16:28:52+08:00">2021-03-22</time>
       </span>
 
   
@@ -1262,98 +1351,6 @@ mjx-container[display="true"] + br {
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2021/02/23/iOS/%E9%9D%99%E6%80%81%E5%BA%93%E5%92%8C%E5%8A%A8%E6%80%81%E5%BA%93/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://swiftbman.github.io/2021/02/23/iOS/%E7%BC%96%E5%86%99%E9%AB%98%E8%B4%A8%E9%87%8FiOS%E4%B8%8EOS%20X%E4%BB%A3%E7%A0%81%E7%9A%8452%E4%B8%AA%E6%9C%89%E6%95%88%E6%96%B9%E6%B3%95%EF%BC%88%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%89/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/tiga_avatar.jpeg">
-      <meta itemprop="name" content="Zheng Qihui">
-      <meta itemprop="description" content="Sharing various IT technologies">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog of JokerZheng">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/02/23/iOS/%E7%BC%96%E5%86%99%E9%AB%98%E8%B4%A8%E9%87%8FiOS%E4%B8%8EOS%20X%E4%BB%A3%E7%A0%81%E7%9A%8452%E4%B8%AA%E6%9C%89%E6%95%88%E6%96%B9%E6%B3%95%EF%BC%88%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%89/" class="post-title-link" itemprop="url">编写高质量 iOS 与 OS X代码的 52 个有效方法（读书笔记）</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2021-02-23 21:10:50 / 修改时间：21:22:11" itemprop="dateCreated datePublished" datetime="2021-02-23T21:10:50+08:00">2021-02-23</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/iOS/" itemprop="url" rel="index"><span itemprop="name">iOS</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <ol>
-<li><p>了解 <strong>Objective-C</strong> 语言的起源</p>
-<ul>
-<li><strong>Objective-C</strong> 为 <strong>C</strong> 语言添加了面向对象特性，是其超集。<strong>Objective-C</strong> 使用动态绑定的消息结构，也就是说，在运行时才会检查对象类型。接收一条信息之后，究竟应执行何种代码，由运行环境而非编译器来决定。</li>
-<li>理解 <strong>C</strong> 语言的核心概念有助于写好 <strong>Objective-C</strong> 程序。尤其要掌握<strong>内存模型与指针</strong>。</li>
-</ul>
-</li>
-<li><p>在类的头文件中尽量少引入其他头文件</p>
-<ul>
-<li>除非确有必要，否则不要引入头文件。一般来说，应在某个类的头文件中使用向前声明来提及别的类，并在实现文件中引入那些类的头文件。这样做可以尽量降低类之间的耦合。</li>
-<li>有时无法使用向前声明，比如要声明某个类遵循一项协议。在这种情况下，尽量把<strong>“该类遵循某协议”</strong>的这条声明移至<strong>“class-continuation分类”</strong>中。如果不行的话，就把协议单独放在一个头文件中，然后将其引入。</li>
-</ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/02/23/iOS/%E7%BC%96%E5%86%99%E9%AB%98%E8%B4%A8%E9%87%8FiOS%E4%B8%8EOS%20X%E4%BB%A3%E7%A0%81%E7%9A%8452%E4%B8%AA%E6%9C%89%E6%95%88%E6%96%B9%E6%B3%95%EF%BC%88%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%89/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
